@@ -1,7 +1,7 @@
 public class Fibonacci{
 
      public static void main(String []args){
-         int start = Integer.parseInt(args[0]);
+         final int start = Integer.parseInt(args[0]);
          int fib1 = 0;
          int fib2 = 1;
          for(int i = 0; i <= (start -2); i++) {
